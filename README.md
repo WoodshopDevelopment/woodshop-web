@@ -40,7 +40,3 @@ Click one of the three dots (bottom-right) to switch:
 - Forest (cream/green)
 
 To make a palette the default on first load, edit the `:root` variables at the top of `styles.css` and make them match the desired palette.
-
-## License
-
-MIT — see `LICENSE`.
