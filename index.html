@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Woodshop Development — Digital tools that give you back time</title>
+  <meta name="description" content="Woodshop Development builds digital tools designed to give you back your time—and keep your attention on life, not tabs. No data selling, no dark patterns—just useful, privacy-respecting software.">
+  <meta name="theme-color" content="#1e1e1e" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="nav" role="navigation" aria-label="Primary">
+      <h1>Woodshop Development</h1>
+      <div>
+        <a class="hide-sm" href="#services">Services</a>
+        <a class="hide-sm" href="#process">Process</a>
+        <a class="hide-sm" href="#privacy">Privacy</a>
+        <a class="cta" href="#contact">Start a project</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Digital tools that give you back time</h2>
+      <p class="tagline">Privacy-respecting apps and websites—so your attention stays on life, not tabs.</p>
+    </section>
+
+    <div class="credibility">10+ years shipping custom apps &amp; sites — trusted by startups, agencies, and independent creators.</div>
+
+    <section id="services">
+      <h3>Services</h3>
+      <p class="muted">What I can do for you:</p>
+      <ul>
+        <li>Custom applications tailored to your workflow, not generic templates.</li>
+        <li>Modern websites — from e-commerce storefronts to creative portfolios.</li>
+        <li>Upgrades to legacy systems — making them faster, safer, and easier to maintain.</li>
+        <li>Reporting pipelines &amp; automation that save you time and reduce errors.</li>
+      </ul>
+    </section>
+
+    <section id="process">
+      <h3>Process</h3>
+      <div class="process-grid">
+        <div class="card"><h4>Listen</h4><p class="muted">Start with a clear conversation about goals, constraints, and outcomes.</p></div>
+        <div class="card"><h4>Sketch</h4><p class="muted">Wireframes, prototypes, and quick feedback loops until the direction feels right.</p></div>
+        <div class="card"><h4>Build</h4><p class="muted">Implement in focused increments, with testing and version control baked in.</p></div>
+        <div class="card"><h4>Check</h4><p class="muted">Validate together: is it solving the problem, intuitive, and technically sound?</p></div>
+        <div class="card"><h4>Launch</h4><p class="muted">Deploy with documentation and monitoring so you feel confident going live.</p></div>
+        <div class="card"><h4>Support</h4><p class="muted">Stay available for refinements, scaling, and questions as your needs evolve.</p></div>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h3>Privacy Pledge</h3>
+      <div class="pledge">
+        <p>I take privacy seriously. Here’s what that means for anyone who works with me:</p>
+        <ul>
+          <li><strong>No data selling.</strong> Your information will never be treated as a product.</li>
+          <li><strong>Only what’s needed.</strong> I collect the bare minimum to make things work smoothly.</li>
+          <li><strong>Protected by default.</strong> Encryption in transit and at rest, whenever possible.</li>
+          <li><strong>Easy to leave.</strong> You can always export your data or move on without headaches.</li>
+          <li><strong>Respectful analytics.</strong> Any metrics are privacy-safe and optional.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Let’s Talk</h3>
+      <p>Have an idea for a tool or website that helps people in the real world? Drop me a note and let’s make it real.</p>
+      <form onsubmit="event.preventDefault(); alert('Thanks! This demo form is static.');">
+        <input placeholder="Your name" required>
+        <input type="email" placeholder="Your email" required>
+        <textarea placeholder="Tell me about your project" rows="4" required></textarea>
+        <button type="submit">Send</button>
+        <p class="form-note">You’ll hear back within 24 hours for a free consult.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Woodshop Development, LLC</p>
+  </footer>
+
+  <div class="palette-switcher" aria-label="Theme palette switcher">
+    <div class="palette-btn" style="background:#e07a5f" onclick="setPalette('warm')" title="Terracotta / Slate"></div>
+    <div class="palette-btn" style="background:#8b5cf6" onclick="setPalette('lilac')" title="Lilac / Charcoal"></div>
+    <div class="palette-btn" style="background:linear-gradient(135deg,#f5f2ea 50%, #2f6d3b 50%)" onclick="setPalette('forest')" title="Forest / Cream"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
