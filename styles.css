@@ -153,6 +153,8 @@ header h1 {
   padding-bottom: 4px;
 }
 .nav a.cta {
+  display: inline-block;
+  text-align: center;
   background: var(--primary);
   color: #fff;
   padding: 0.5rem 0.85rem;
