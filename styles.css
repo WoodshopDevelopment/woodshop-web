@@ -1,68 +1,10 @@
 /* Woodshop Development – styles.css */
 :root {
-  --bg: #1e1e1e;
-  --bg-soft: #222327;
-  --text: #f5f5f5;
-  --muted: #b9bdc5;
-  --primary: #e07a5f; /* terracotta */
-  --primary-600: #c8654b;
   --radius: 14px;
   --shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
-  --divider: rgba(255, 255, 255, 0.08);
-  --accent: linear-gradient(
-    90deg,
-    rgba(224, 122, 95, 0.6),
-    rgba(224, 122, 95, 0)
-  );
   --header-h: 72px;
-  --glow1: rgba(224, 122, 95, 0.12);
-  --glow2: rgba(139, 92, 246, 0.1);
-  --pattern-line: rgba(255, 255, 255, 0.04);
-  --header-bg: rgba(34, 35, 39, 0.8);
   --header-text: var(--text);
-}
 
-body.theme-warm {
-  --primary: #e07a5f;
-  --primary-600: #c8654b;
-  --bg: #1e1e1e;
-  --bg-soft: #222327;
-  --text: #f5f5f5;
-  --muted: #b9bdc5;
-  --divider: rgba(255, 255, 255, 0.08);
-  --accent: linear-gradient(
-    90deg,
-    rgba(224, 122, 95, 0.6),
-    rgba(224, 122, 95, 0)
-  );
-  --glow1: rgba(224, 122, 95, 0.12);
-  --glow2: rgba(139, 92, 246, 0.1);
-  --pattern-line: rgba(255, 255, 255, 0.04);
-  --header-bg: rgba(34, 35, 39, 0.8);
-  --header-text: #f5f5f5;
-}
-
-body.theme-lilac {
-  --primary: #8b5cf6;
-  --primary-600: #6d28d9;
-  --bg: #18181b;
-  --bg-soft: #27272a;
-  --text: #fafafa;
-  --muted: #a1a1aa;
-  --divider: rgba(255, 255, 255, 0.1);
-  --accent: linear-gradient(
-    90deg,
-    rgba(139, 92, 246, 0.6),
-    rgba(139, 92, 246, 0)
-  );
-  --glow1: rgba(139, 92, 246, 0.14);
-  --glow2: rgba(224, 122, 95, 0.1);
-  --pattern-line: rgba(255, 255, 255, 0.06);
-  --header-bg: rgba(24, 24, 27, 0.85);
-  --header-text: #fafafa;
-}
-
-body.theme-forest {
   --primary: #2f6d3b;
   --primary-600: #24562d;
   --bg: #f5f2ea;
@@ -79,7 +21,47 @@ body.theme-forest {
   --glow2: rgba(47, 109, 59, 0.08);
   --pattern-line: rgba(0, 0, 0, 0.04);
   --header-bg: rgba(255, 255, 255, 0.8);
-  --header-text: #1b1f22;
+}
+
+body.theme-warm {
+  --primary: #e07a5f;
+  --primary-600: #c8654b;
+  --accent: linear-gradient(
+    90deg,
+    rgba(224, 122, 95, 0.6),
+    rgba(224, 122, 95, 0)
+  );
+  --glow1: rgba(224, 122, 95, 0.12);
+  --glow2: rgba(139, 92, 246, 0.1);
+  --pattern-line: rgba(255, 255, 255, 0.04);
+}
+
+body.theme-lilac {
+  --primary: #8b5cf6;
+  --primary-600: #6d28d9;
+  --divider: rgba(255, 255, 255, 0.1);
+  --accent: linear-gradient(
+    90deg,
+    rgba(139, 92, 246, 0.6),
+    rgba(139, 92, 246, 0)
+  );
+  --glow1: rgba(139, 92, 246, 0.14);
+  --glow2: rgba(224, 122, 95, 0.1);
+  --pattern-line: rgba(255, 255, 255, 0.06);
+}
+
+body.theme-forest {
+  --primary: #2f6d3b;
+  --primary-600: #24562d;
+  --divider: rgba(0, 0, 0, 0.1);
+  --accent: linear-gradient(
+    90deg,
+    rgba(47, 109, 59, 0.45),
+    rgba(47, 109, 59, 0)
+  );
+  --glow1: rgba(47, 109, 59, 0.15);
+  --glow2: rgba(47, 109, 59, 0.08);
+  --pattern-line: rgba(0, 0, 0, 0.04);
 }
 
 * {
